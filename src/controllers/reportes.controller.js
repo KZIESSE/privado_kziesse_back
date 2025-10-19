@@ -20,7 +20,7 @@ exports.participantesPdf = async (_req, res) => {
          u.nombre   AS userNombre,
          u.email    AS userEmail,
          u.telefono AS userTelefono,
-         u.tipoRegistro AS userTipoRegistro,
+         u.tipo_registro AS userTipoRegistro,
          u.carnet   AS userCarnet,
          u.colegio  AS userColegio,
          t.id       AS tallerId,
